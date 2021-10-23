@@ -6,6 +6,7 @@ The data set required for training model  was collected  from patients of differ
 I have implemented using varies machine learning algorithms and Python . And anlaysis done in Goggle colab 
 Then dataset was trained with different techniques of regression like Random Forest , KNN , Decision Tree , SVM, linear Regression, Logistic Regression and Ridge regression which imported from Sklearn.
 
+Detail steps and process  was given in machine learning file u can check there . 
 
  Mail me  if anyone require codes of python and HTMl used. 
  Mail - manyam.vishal.18ece@bmu.edu.in
