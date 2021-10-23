@@ -8,7 +8,9 @@ Then dataset was trained with different techniques of regression like Random For
 
 Detail steps and process  was given in machine learning file u can check there . 
 
- Mail me  if anyone require codes of python and HTMl used. 
- Mail - manyam.vishal.18ece@bmu.edu.in
+Codes of python and Html used if anyone required u can get from the google drive link 
+Drive Link : https://drive.google.com/drive/folders/1mqzknUeI1xGa7RL893FXdS_6RNCa_16P?usp=sharing
+
+Contact me if any doubts Mail - manyam.vishal.18ece@bmu.edu.in 
 
 
