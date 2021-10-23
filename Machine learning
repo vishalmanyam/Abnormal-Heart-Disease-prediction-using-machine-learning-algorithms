@@ -23,3 +23,5 @@ The parameters obtained were: areleaf_size = 1, n_neighbors = 2, p = 1.
 So then i have deployed the KNN model in flask.
  
 For deploying the KNN model  i have used Flask. Flask is used to deploy ML models, flask is nothing but a framework.
+
+I will provide the google colab file which will be easy to understand the code i have written.
