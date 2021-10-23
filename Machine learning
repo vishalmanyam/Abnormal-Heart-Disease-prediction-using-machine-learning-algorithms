@@ -1,0 +1,25 @@
+I have done analysis in Google Collab for the machine learning part.
+
+I took the data from different patients and hospitals. The dataset contains ECG values like Amplitude,RR and speed.
+ 
+First i split my data in such a way that 80% of it constitutes the Training data and 20%, the test data.
+ 
+Here i have used supervised learning. It has two types: regression and classification. 
+ 
+As i need to predict three diseases  which are venticular arrhythmias, tachycardia, bradcardia,so  we have taken 4 output variables .
+ 
+I have used regression technique because output variables are more than 2 .
+ 
+I tested the data sets with all regression techniques like Linear regression,lasso regression,Ridge,KNN,SVM, Random Forest and decision Tree.
+ 
+By using Hyper Parameter tuning, we can find the best parameters to the model andconsequently, the best accuracy. 
+
+Here i have used hyper parameter using gridsearchCV and Randomizedsearch . Based on the time complexity i have choosed whether to use grid or randomized.
+
+KNN’s accuracy using the technique comes out to be around 84.7% which is the best compare to all techniques.
+
+The parameters obtained were: areleaf_size = 1, n_neighbors = 2, p = 1.
+
+So then i have deployed the KNN model in flask.
+ 
+For deploying the KNN model  i have used Flask. Flask is used to deploy ML models, flask is nothing but a framework.
