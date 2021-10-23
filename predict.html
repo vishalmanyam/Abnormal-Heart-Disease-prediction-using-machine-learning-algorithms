@@ -1,0 +1,122 @@
+{% extends 'layout.html'%}
+{% block content%}
+
+<div class="content-section">
+  <form method="POST" action="">
+    {{form.hidden_tag()}}
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Arrhythmia Prediction</legend>
+      
+      <div class="form-group">
+        {{form.Age.label(class="form-control-label")}}
+        {% if form.Age.errors %}
+        {{form.Age(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.Age.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.Age(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+      <div class="form-group">
+        {{form.Sex.label(class="form-control-label")}}
+        {% if form.Sex.errors %}
+        {{form.Sex(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.Sex.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.Sex(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+      <div class="form-group">
+        {{form.amlitude.label(class="form-control-label")}}
+        {% if form.amlitude.errors %}
+        {{form.amlitude(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.amlitude.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.amlitude(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+      <div class="form-group">
+        {{form.RR.label(class="form-control-label")}}
+        {% if form.RR.errors %}
+        {{form.RR(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.RR.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.RR(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+      <div class="form-group">
+        {{form.speed.label(class="form-control-label")}}
+        {% if form.speed.errors %}
+        {{form.speed(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.speed.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.speed(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+      <div class="form-group">
+        {{form.Medicine.label(class="form-control-label")}}
+        {% if form.Medicine.errors %}
+        {{form.Medicine(class="form-control form-control-lg is-invalid")}}
+        <div class="ivalid-feedback">
+          {% for error in form.Medicine.errors %}
+           <span>
+             {{error}}
+           </span>
+          {% endfor %}
+
+        </div>
+        {% else %}
+        {{form.Medicine(class="form-control form-control-lg")}}
+        {% endif %}
+      </div>
+
+     
+    
+
+    </fieldset>
+    <div class="form-group">
+      {{form.submit(class="btn btn-outline-info")}}
+    </div>
+    
+  </form>
+</div>
+{% endblock content%}
